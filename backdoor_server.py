@@ -3,7 +3,7 @@ from aiohttp import request
 import requests
 
 class Server:
-    IP_ADDRESS = "127.0.0.1"
+    IP_ADDRESS = "4.tcp.ngrok.io"
     PORT = 8080
 
     def main(self):
