@@ -3,8 +3,8 @@ from aiohttp import request
 import requests
 
 class Server:
-    IP_ADDRESS = "localhost"
-    PORT = 16820
+    IP_ADDRESS = "127.0.0.1"
+    PORT = 8080
 
     def main(self):
         server = socket.socket()
