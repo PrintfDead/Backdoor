@@ -4,7 +4,7 @@ import requests
 
 class Server:
     IP_ADDRESS = "localhost"
-    PORT = 8080
+    PORT = 16820
 
     def main(self):
         server = socket.socket()
