@@ -2,7 +2,7 @@ import socket
 import subprocess, os
 
 class Client:
-    IP_ADDRESS = '4.tcp.ngrok.io'
+    IP_ADDRESS = '127.0.0.1'
     PORT = 8080
 
     def main(self):
